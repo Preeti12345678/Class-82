@@ -56,3 +56,7 @@ var last_position_of_x, last_position_of_y;
         last_position_of_y = current_position_of_touch_y;
     }
 
+    function clear_area(){
+        ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+    }
+
